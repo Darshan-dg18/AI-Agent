@@ -1,0 +1,11 @@
+/* ----------------- General ----------------- */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
