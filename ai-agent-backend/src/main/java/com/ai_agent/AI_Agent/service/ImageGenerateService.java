@@ -10,6 +10,6 @@ public class ImageGenerateService {
     private String imgUrl;
 
     public String generateImage(String prompt){
-        return imgUrl + prompt.replace(" ", "%20");
+        return imgUrl + "?prompt=" + prompt.replace(" ", "%20");
     }
 }

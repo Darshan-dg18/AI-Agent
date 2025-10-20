@@ -22,8 +22,9 @@ public class WebConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(false);
         config.setAllowedOrigins(List.of(
-                "http://localhost:5173",               
-                "https://ai-agent-free.vercel.app"
+                "http://localhost:5173",
+                "https://ai-agent-free.vercel.app",
+                "https://enthusiastic-courage-production-c66a.up.railway.app"
         ));
         config.setAllowedHeaders(List.of("*"));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));

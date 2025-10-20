@@ -24,7 +24,7 @@ public class TextGenerateService {
         try {
             String encodedPrompt = URLEncoder.encode(prompt, StandardCharsets.UTF_8.toString());
 
-            String url = textBaseUrl + encodedPrompt;
+            String url = textBaseUrl + "?prompt=" + encodedPrompt;
             return webClient.get()
                     .uri(url)
                     .retrieve()
