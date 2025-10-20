@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:8080/api/ai";
+const API_BASE_URL = "enthusiastic-courage-production-c66a.up.railway.app";
 
 // Generate Text
 export const generateText = async (prompt) => {
