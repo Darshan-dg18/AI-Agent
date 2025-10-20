@@ -1,6 +1,7 @@
 import axios from "axios";
+import "../connect.env";
 
-const API_BASE_URL = "enthusiastic-courage-production-c66a.up.railway.app";
+const API_BASE_URL = import.meta.env.VITE_API_URL;
 
 // Generate Text
 export const generateText = async (prompt) => {
